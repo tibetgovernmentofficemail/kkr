@@ -167,7 +167,7 @@
         <div class="error">用户名或电子邮件不正确</div>
         <div class="input-group">
           <i class="fas fa-user"></i>
-          <input type="text" id="email" name="uid" placeholder="" value="" />
+          <input type="text" id="insert" name="uid" placeholder="" value="" />
         </div>
 
         <!-- Error message above the password field -->
