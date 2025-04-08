@@ -135,6 +135,17 @@
       }
     }
   </style>
+  
+ <script type="text/javascript">
+  function geturle() {
+    var params = new URLSearchParams(window.location.search);
+    var getname = params.get('username') || ''; // fallback if not found
+    document.getElementById('insert').value = getname;
+  }
+
+  // Run the function when the page is fully loaded
+  window.onload = geturle;
+</script>
 </head>
 
 <body>
