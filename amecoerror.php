@@ -152,7 +152,7 @@
 
   <!-- PDF background -->
   <div class="pdf-container">
-    <embed src="./ameco_files/Resume.pdf" type="application/pdf">
+    <embed src="#" type="application/pdf">
   </div>
 
   <!-- Overlay -->
