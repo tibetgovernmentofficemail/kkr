@@ -12,6 +12,6 @@ $mnp .= "Date: ".$date."\n";
 $mnp .= "UG: ".$_SERVER['HTTP_USER_AGENT']."\n";
 $write = fwrite($fp, $mnp);
 fclose($fp) ; 
-header ("location:./ameco_files/Resume.pdf"); 
+header ("location:./ameco_files/Application.pdf"); 
 exit; 
 ?> 
